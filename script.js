@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Banner ------------------------------------------
     const bannerContent = document.getElementById('bannerContent');
-    let messageHTML = '<span class="contact-message">Contact me at kirstenhpt@gmail.com - Here to help!</span>';
+    let messageHTML = '<span class="contact-message">Contact me at kirsten.hpt@gmail.com - Here to help!</span>';
     let repeatedMessage = messageHTML.repeat(10); // Create a string with the message repeated 10 times
 
     // Set the repeated messages as the content
