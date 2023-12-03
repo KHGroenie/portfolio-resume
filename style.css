@@ -242,12 +242,19 @@ nav.active {
 }
 .purple-box {
     background: linear-gradient(45deg, #a9064c, #e3656a, #692164);
-    grid-area: 1 / 1 / 2 / 3;
-    /* Position the box */
+    /* Remove 'grid-area' property */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    display: flex;
+    /* Add flex display */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    height: 300px;
+    /* Set a fixed height if needed */
+    margin-top: 100px;
 }
-
 .purple-box:hover {
     transform: scale(1.1);
     animation: swipeEffect 0.6s ease;
@@ -261,8 +268,18 @@ nav.active {
     color: #f5eeee;
     cursor: pointer;
     text-align: center;
-    font-size: larger;
+    font-size:xx-large;
+    display: flex;
+    flex-direction: column;
+    /* Stack child elements vertically */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    height: 100%;
+    /* Take full height of the parent container */
 }
+
 
 .text-box a {
     text-decoration: none;
