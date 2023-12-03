@@ -187,7 +187,15 @@ nav.active {
     opacity: 1;
     animation: wheelAnimation 2s infinite;
 }
-
+@media screen and (max-width: 600px) {
+    .mouse {
+        /* Adjust positioning styles for smaller screens */
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 @keyframes wheelAnimation {
     to {
         opacity: 0;
