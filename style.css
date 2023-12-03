@@ -267,7 +267,7 @@ nav.active {
     color: #f5eeee;
     cursor: pointer;
     text-align: center;
-    font-size:xx-large;
+    font-size:x-large;
     display: flex;
     flex-direction: column;
     /* Stack child elements vertically */
